@@ -1,0 +1,62 @@
+.wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav {
+    font-family: 'Lato', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.header-content {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30vh 0;
+    margin: 0 auto;
+    width: 65%;
+    line-height: 2;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.reservation-btn {
+    border-radius: 0;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #f5a637;
+}
+
+.reservation-btn:hover {
+    color: #f5a637;
+}
+
+.fab {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.fab:hover {
+    color: #f5a637;
+}
+
+.header-bottom {
+    padding: 20px 0;
+    display: flex;
+    color: #fff;
+}
