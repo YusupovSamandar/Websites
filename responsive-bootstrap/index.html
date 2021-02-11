@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="preload">
+        <div class="spinner">
+
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Quick</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <ul class="navbar-nav ml-auto mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Landings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">App</a>
+                        </li>
+                    </ul>
+                    <div class="login">
+                        <a class="sign-in" href="#">Sign-In</a>
+                        <div class="space">|</div>
+                        <button class="py-1 btn btn-light"><i class="fas mr-2 fa-shopping-cart"></i> Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="my-navbar-content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h5>- Build like a Pro</h5>
+                        <h1>A better way </h1>
+                        <h2>to build websites.</h2>
+                        <p>Build a beautiful, modern website with flexible components and modular pages built from
+                            scratch.</p>
+                        <img class="abs-img" src="img/small.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img class="right-img" src="img/big.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            window.addEventListener('load', () => {
+                setTimeout(() => {
+                    $('.preload').css({
+                        'opacity': '0',
+                        'transition': '0.5s',
+                        'z-index': '-1'
+                    });
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+
+</html>
