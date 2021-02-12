@@ -1,0 +1,165 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+html, body {
+    font-family: sans-serif;
+}
+header {
+    background-image: url('../img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p {
+    line-height: 2;
+}
+.bobo {
+    width: 100%;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1 , h2 , h3 {
+    padding-bottom: 20px;
+}
+p {
+    padding: 10px 0;
+}
+#navbar {
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar li {
+    float: left;
+}
+#navbar li a {
+    display: inline-block;
+    padding: 29px;
+}
+#navbar ul li a:hover{
+    color: #f7c08a;
+}
+#navbar ul li a.current{
+    background-color: #333;
+    color: #f7c08a;
+}
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+.clr {
+    clear: both;
+}
+.text-primary {
+    color: #f7c08a;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 23px;
+    color: #fff;
+    background-color: #333;
+    padding: 18px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+} 
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color:#333;
+}
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+/* showcase sectoin */
+#showcase {
+    height: 800px;
+}
+#showcase .showcase-content {
+    text-align: center;
+    color: #fff;
+    padding: 170px;
+}
+.showcase-content h1 {
+    font-size: 60px;
+}
+.showcase-content p {
+    font-size: 20px     ;
+}
+#home-info {
+    height: 400px;
+    width: 1900px;
+    margin: 0 auto;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/02.jpg');
+    background-repeat: no-repeat;
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding-top: 0px;
+}
+#home-info .info-content p {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+/* Features section */
+.box {
+    width: 33.3333%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.box img {
+    padding-bottom: 10px;
+}
+.main-footer {
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+.info-content h2 {
+    padding-top: 40px;
+}

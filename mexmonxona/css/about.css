@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+html, body {
+    font-family: sans-serif;
+}
+header {
+    background-color: #252525;
+}
+.bobo {
+    width: 100%;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1 , h2 , h3 {
+    padding-bottom: 20px;
+}
+p {
+    padding: 10px 0;
+}
+#navbar {
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar li {
+    float: left;
+}
+#navbar li a {
+    display: inline-block;
+    padding: 29px;
+}
+#navbar ul li a:hover{
+    color: #f7c08a;
+}
+#navbar ul li a.current{
+    background-color: #333;
+    color: #f7c08a;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clr {
+    clear: both;
+}
+.text-primary {
+    color: #f7c08a;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    display: inline-block;
+    font-size: 23px;
+    color: #fff;
+    background-color: #333;
+    padding: 18px 25px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+} 
+.btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color:#333;
+}
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+.about {
+    width: 60%;
+    float: left;
+}
+.img {
+    width: 30%;
+    float: right;
+}
+.img img {
+    width: 478px;
+    border-radius: 100px;
+    padding-bottom: 20px;
+}
+.guests {
+    background-image: url('../img/002.jpg');
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+.guests h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 70px;
+}
+.guests img {
+    border-radius: 70px;
+    float: left;
+    width: 100px;
+}
+.advice {
+    padding: 20px 120px;
+    color: #fff;
+}
+.main-footer {
+    text-align: center;
+    background-color: #313130;
+    padding: 15px;
+    color: #fff;
+}
+.guests .container {
+    padding-bottom: 50px;
+}
+.ourGuests {
+    padding: 10px;
+}
+
+
+
