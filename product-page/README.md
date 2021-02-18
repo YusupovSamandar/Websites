@@ -1,0 +1,1 @@
+*This is a single page of a whole website which is used for showing the details of a certail product
