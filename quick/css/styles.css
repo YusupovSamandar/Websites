@@ -1,0 +1,192 @@
+header {
+    background-color: #110e35;
+    height: 85vh;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.preload {
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+.navbar-brand::first-letter {
+    font-weight: bolder;
+    margin-right: 2px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-top: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media (min-width: 980px) {
+
+    .nav-item .nav-link {
+        margin: 10px 20px;
+    }
+
+
+    .sign-in {
+        color: #fff;
+        letter-spacing: 1px;
+    }
+
+    .sign-in:hover {
+        color: aliceblue;
+    }
+
+    .space {
+        margin: 0 20px;
+        display: inline;
+        color: #fff;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .space {
+        margin: 0 20px;
+        display: inline;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .sign-in {
+        color: #000;
+        background-color: #f8f9fa;
+        padding: 5px 20px;
+        border-radius: 5px;
+    }
+
+    .login {
+        margin: 20px 0 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.navbar .container {
+    padding: 10px 0;
+    border-bottom: 1px solid #3E3C55;
+}
+
+
+/*Spinner*/
+
+.spinner {
+    transition: 0.5s;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #333;
+    border-bottom: 3px solid #707070;
+    border-top: 3px solid #707070;
+    border-radius: 100%;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.my-navbar-content h5,
+.my-navbar-content h1,
+.my-navbar-content p {
+    color: #fff;
+}
+
+.my-navbar-content p {
+    font-size: 1.4rem;
+}
+
+.my-navbar-content h1 {
+    font-size: 4rem;
+}
+
+.my-navbar-content h2 {
+    font-size: 3rem;
+}
+
+.my-navbar-content h2 {
+    color: #008aff;
+}
+
+.my-navbar-content p {
+    opacity: 0.8;
+}
+
+.my-navbar-content {
+    padding: 13% 0;
+    position: relative;
+}
+
+
+
+@media (max-width: 1200px) {
+    .abs-img {
+        width: 190px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .right-img {
+        position: relative;
+        bottom: 70px;
+        width: 100%;
+        left: 40px;
+        border-radius: 15px;
+    }
+
+    .abs-img {
+        z-index: 1;
+        right: -200px;
+        bottom: -70px;
+        position: absolute;
+        width: 220px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        height: 150vh;
+    }
+
+    .right-img {
+        position: relative;
+        top: 20px;
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .abs-img {
+        display: none;
+    }
+}
