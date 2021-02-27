@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch Me</title>
+    <style>
+        div {
+            font-family: cursive;
+            font-size: 1rem;
+            border-radius: 100%;
+            box-sizing: border-box;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: larger;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1></h1>
+    <div><i class="far fa-3x fa-grin-squint"></i></div>
+    <script src="https://kit.fontawesome.com/1842be189d.js" crossorigin="anonymous"></script>
+    <script src="jquary.js"></script>
+    <script>
+        function random() {
+            let number = Math.floor(Math.random() * 500 + 100)
+            return number + "px";
+        }
+        $(document).ready(function () {
+            $("div").click(function () {
+                $("div").html('<i class="far fa-3x fa-dizzy"></i>');
+                $("h1").html("you win")
+            })
+            $("div").mouseover(function () {
+                $("div").animate({
+                    left: random(),
+                    right: random(),
+                    top: random(),
+                    bottom: random()
+                }, 100);
+            });
+
+        });
+    </script>
+</body>
+
+</html>
