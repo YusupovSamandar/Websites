@@ -1,0 +1,17 @@
+#banner-wrapper {
+    padding-bottom: 90px;
+    box-sizing: unset;
+    overflow: hidden;
+}
+
+#banner-wrapper {
+    height: 350px;
+    background: url(./img02.jpg) repeat;
+}
+
+#banner {
+    width: 1000px;
+    height: 350px;
+    margin: 0px auto;
+    z-index: -1;
+}
